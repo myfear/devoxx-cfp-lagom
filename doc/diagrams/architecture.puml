@@ -1,0 +1,8 @@
+@startuml
+
+
+html.xxxUI ..> rest.xxxREST : use
+html.UserUI ..> rest.UserREST : use
+rest.xxxREST ..> service.xxxService : use
+
+@enduml
